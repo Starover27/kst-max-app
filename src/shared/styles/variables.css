@@ -1,0 +1,33 @@
+@import url('./colors.css');
+@import url('./radius.css');
+@import url('./shadows.css');
+@import url('./typography.css');
+
+:root {
+  /* Основные переменные (алиасы к базовым токенам) */
+  --color-bg: #F7F8FA;
+  --color-surface: #FFFFFF;
+  --color-text: #1C1C1E;
+  --color-text-secondary: #6B7280;
+  --color-text-muted: #9CA3AF;
+  --color-accent: var(--red);
+  --color-success: var(--green);
+  --color-error: var(--red);
+  --color-border: #E8E8EC;
+
+  /* Радиусы */
+  --radius-button: var(--radius-sm);
+  --radius-card: var(--radius-lg);
+  --radius-avatar: var(--radius-full);
+
+  /* Тени */
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-modal: 0 12px 40px rgba(0, 0, 0, 0.2);
+
+  /* Прочие отступы и размеры */
+  --gap-xs: 0.5rem;
+  --gap-sm: 0.75rem;
+  --gap-md: 1rem;
+  --gap-lg: 1.5rem;
+  --gap-xl: 2rem;
+}

@@ -1,0 +1,22 @@
+:root {
+  --font-family-base: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+  /* Размеры (design-reference / DESIGN_SYSTEM) */
+  --font-size-base: 15px;        /* Body: текст карточек, кнопок, меню */
+  --font-size-secondary: 13px;   /* Caption: специальность, описания, цены */
+  --font-size-small: 12px;       /* Small: стаж, даты, статусы */
+  --font-size-h1: 24px;          /* Hero-приветствие */
+  --font-size-h2: 20px;          /* Заголовки страниц и секций */
+  --font-size-h3: 18px;          /* Заголовок topBar */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-h1: 700;
+  --font-weight-h2: 700;
+  --font-weight-h3: 700;
+
+  --line-height-base: 1.4;
+  --line-height-heading: 1.2;
+}

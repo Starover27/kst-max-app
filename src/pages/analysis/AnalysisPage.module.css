@@ -1,0 +1,119 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+  padding: var(--gap-md);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color-text);
+}
+
+.main {
+  display: grid;
+  gap: var(--gap-sm);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--font-size-h2); /* Используем новый размер H2 */
+  font-weight: var(--font-weight-h2); /* Используем новый вес H2 */
+  margin: 0;
+  line-height: var(--line-height-heading); /* Используем line-height для заголовков */
+}
+
+.chipContainer {
+  display: flex;
+  gap: var(--gap-sm);
+  margin-top: var(--gap-md);
+  overflow-x: auto;
+  padding-bottom: var(--gap-xs);
+  /* Скрыть полосу прокрутки */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.chipContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.analysisList {
+  display: grid;
+  gap: var(--gap-sm);
+  margin-top: var(--gap-md);
+}
+
+.analysisItem {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--color-border);
+}
+
+.analysisInfo {
+  flex: 1;
+}
+
+.analysisTitle {
+  font-size: var(--font-size-h3); /* Используем новый размер H3 для названия анализа */
+  font-weight: var(--font-weight-h3); /* Используем новый вес H3 */
+  margin: 0 0 var(--gap-xs) 0;
+  color: var(--color-text);
+  line-height: var(--line-height-heading); /* Используем line-height для заголовков */
+}
+
+.analysisDate {
+  font-size: var(--font-size-secondary); /* Используем новый размер secondary */
+  color: var(--color-text-secondary);
+  margin: 0;
+  line-height: var(--line-height-base); /* Используем base line-height */
+}
+
+.analysisActions {
+  display: flex;
+  gap: var(--gap-sm);
+  align-items: center;
+}
+
+.statusReady {
+  background: color-mix(in srgb, var(--color-success), transparent 80%);
+  color: var(--color-success);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px; /* Делаем pill-формой */
+  font-size: var(--font-size-secondary); /* Используем новый размер secondary */
+  font-weight: var(--font-weight-medium);
+}
+
+.statusInProgress {
+  background: color-mix(in srgb, var(--color-primary), transparent 80%);
+  color: var(--color-primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px; /* Делаем pill-формой */
+  font-size: var(--font-size-secondary); /* Используем новый размер secondary */
+  font-weight: var(--font-weight-medium);
+}
+
+.viewResultButton {
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  font-size: var(--font-size-secondary); /* Используем новый размер secondary */
+  padding: 0.25rem 0.5rem;
+}
+
+.downloadIcon {
+  color: var(--color-text-muted);
+  font-size: 1.2rem;
+  cursor: pointer;
+}

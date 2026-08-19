@@ -1,0 +1,150 @@
+{
+  "_meta": {
+    "source": "https://kst27.ru/index.php/kontakty",
+    "fetched_date": "2026-08-15",
+    "notes": "Данные извлечены из HTML страницы контактов kst27.ru"
+  },
+  "organization": {
+    "name": "Клиника Современных Технологий",
+    "full_name": "Клиника современных технологий - многопрофильный медицинский центр европейского класса для взрослых и детей",
+    "legal_entities": [
+      {
+        "name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"КЛИНИКА СОВРЕМЕННЫХ ТЕХНОЛОГИЙ-ДВ\"",
+        "short_name": "ООО \"КСТ-ДВ\"",
+        "address": "680000, КРАЙ ХАБАРОВСКИЙ, ГОРОД ХАБАРОВСК, УЛИЦА ПУШКИНА, 11, ОФИС 27",
+        "ogrn": "1122721002073",
+        "inn": "2721191316",
+        "kpp": "272101001",
+        "ogrn_date": "11.03.2012",
+        "source": "https://kst27.ru/index.php/kontakty"
+      },
+      {
+        "name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"КЛИНИКА СОВРЕМЕННЫХ ТЕХНОЛОГИЙ\"",
+        "short_name": "ООО \"КСТ\"",
+        "address": "680000, КРАЙ ХАБАРОВСКИЙ, ГОРОД ХАБАРОВСК, УЛИЦА ПУШКИНА, 11, ОФИС 27",
+        "ogrn": "1042700165200",
+        "inn": "2721120668",
+        "kpp": "272101001",
+        "ogrn_date": "30.11.2004",
+        "source": "https://kst27.ru/index.php/kontakty"
+      }
+    ]
+  },
+  "phones": [
+    {
+      "number": "+7 (4212) 48-88-88",
+      "label": "Единый телефон",
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "number": "+7 (4212) 48-22-22",
+      "label": null,
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "number": "+7 (4212) 48-33-33",
+      "label": null,
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "number": "+7 (4212) 33-20-20",
+      "label": null,
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "number": "+7 (800) 550-84-88",
+      "label": null,
+      "source": "https://kst27.ru/index.php/kontakty"
+    }
+  ],
+  "emails": [
+    {
+      "email": "reg.dv@kst27.ru",
+      "label": "Регистратура",
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "email": "buh.dv@kst27.ru",
+      "label": "Бухгалтерия",
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "email": "klinika@kst27.ru",
+      "label": "Директор",
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "email": "klinika@kst27.ru",
+      "label": "Для претензий",
+      "source": "https://kst27.ru/index.php/kontakty"
+    }
+  ],
+  "working_hours": {
+    "weekday": "Пн-Пт с 08:00-21:00",
+    "weekend": "Сб и Вск – с 08:00-19:00",
+    "source": "https://kst27.ru/index.php/kontakty"
+  },
+  "social_bots": [
+    {
+      "platform": "Telegram",
+      "url": "https://t.me/kst_tg_bot",
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "platform": "Max",
+      "url": "https://max.ru/id2721191316_bot",
+      "source": "https://kst27.ru/index.php/kontakty"
+    }
+  ],
+  "online_services": [
+    {
+      "type": "online_consultation",
+      "label": "Онлайн-консультация",
+      "provider": "Mila",
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "type": "online_booking",
+      "label": "Записаться на прием",
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "type": "online_payment",
+      "label": "Онлайн-оплата услуг",
+      "url": "/index.php/oplata-uslug",
+      "source": "https://kst27.ru/index.php/kontakty"
+    },
+    {
+      "type": "ambulance_call",
+      "label": "Вызвать скорую",
+      "source": "https://kst27.ru/index.php/kontakty"
+    }
+  ],
+  "website": "https://kst27.ru",
+  "map_coordinates": {
+    "center": [48.5164, 135.074],
+    "zoom": 11,
+    "markers": [
+      {
+        "position": [48.4682, 135.087],
+        "label": "Хабаровск, ул. Шеронова, 6",
+        "source": "https://kst27.ru/index.php/kontakty"
+      },
+      {
+        "position": [48.4683, 135.086],
+        "label": "Хабаровск, ул. Шеронова, 8, корп. 3",
+        "source": "https://kst27.ru/index.php/kontakty"
+      },
+      {
+        "position": [48.558, 135.035],
+        "label": "Хабаровск, ул. Руднева, 17",
+        "source": "https://kst27.ru/index.php/kontakty"
+      },
+      {
+        "position": [48.4689, 135.085],
+        "label": "Хабаровск, улица Шеронова, 10",
+        "source": "https://kst27.ru/index.php/kontakty"
+      }
+    ]
+  }
+}

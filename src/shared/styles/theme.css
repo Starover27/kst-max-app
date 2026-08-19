@@ -1,0 +1,23 @@
+@import './variables.css';
+@import './colors.css';
+@import './spacing.css';
+@import './radius.css';
+@import './typography.css';
+@import './shadows.css';
+
+:root {
+  --app-font: var(--font-family-base);
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  font-family: var(--app-font);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}

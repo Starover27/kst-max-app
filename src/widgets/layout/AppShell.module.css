@@ -1,0 +1,41 @@
+.desktopNav {
+  width: 80px;
+  padding: 1rem 0.5rem;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .desktopNav {
+    display: none;
+  }
+}
+
+.bottomNavWrapper {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bottomNavWrapper {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Убедимся, что навигация поверх других элементов */
+  }
+}
+
+.mainContent {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.mainContent.homePage {
+  padding: 0;
+}

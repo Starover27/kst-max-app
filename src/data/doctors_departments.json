@@ -1,0 +1,833 @@
+{
+  "_meta": {
+    "source": "https://kst27.ru/index.php/nasha-komanda/vrachi",
+    "fetched_date": "2026-08-15",
+    "notes": "Данные извлечены из страниц отделений врачей kst27.ru"
+  },
+  "departments": [
+    {
+      "name": "Отделение Терапии",
+      "url": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "doctorCount": 27
+    },
+    {
+      "name": "Отделение Педиатрии",
+      "url": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "doctorCount": 15
+    },
+    {
+      "name": "Отделение Гинекологии",
+      "url": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii",
+      "doctorCount": 7
+    },
+    {
+      "name": "Отделение Онкологии",
+      "url": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii",
+      "doctorCount": 4
+    },
+    {
+      "name": "Отделение Хирургии",
+      "url": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "doctorCount": 15
+    },
+    {
+      "name": "Отделение ОтоРиноЛарингологии",
+      "url": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii",
+      "doctorCount": 4
+    }
+  ],
+  "doctors": [
+    {
+      "fullName": "Крылова Ирина Евгеньевна",
+      "surname": "Крылова",
+      "firstName": "Ирина",
+      "middleName": "Евгеньевна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/krylova-irina-evgenevna-immunolog-allergolog.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1474-krylova-irina-evgenevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Асланова Кристина Руслановна",
+      "surname": "Асланова",
+      "firstName": "Кристина",
+      "middleName": "Руслановна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/2420061-1096834-aslanova_square.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1780-aslanova-kristina-ruslanovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Бекасова Анжелика Викторовна",
+      "surname": "Бекасова",
+      "firstName": "Анжелика",
+      "middleName": "Викторовна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/bekasova-a-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1448-bekasova-anzhelika-viktorovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Вандан Юлия Германовна",
+      "surname": "Вандан",
+      "firstName": "Юлия",
+      "middleName": "Германовна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/vandan-u-g.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1500-vandan-yuliya-germanovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Гончар Сергей Александрович",
+      "surname": "Гончар",
+      "firstName": "Сергей",
+      "middleName": "Александрович",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/gonchar-s-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1471-gonchar-sergej-aleksandrovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Грельо Инна Григорьевна",
+      "surname": "Грельо",
+      "firstName": "Инна",
+      "middleName": "Григорьевна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/grelyo-i-g.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1461-grelo-inna-grigorevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Данилова Татьяна Александровна",
+      "surname": "Данилова",
+      "firstName": "Татьяна",
+      "middleName": "Александровна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/danilova-t-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1473-danilova-tatyana-aleksandrovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Канин Виталий Сергеевич",
+      "surname": "Канин",
+      "firstName": "Виталий",
+      "middleName": "Сергеевич",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/kanin-v-s.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1468-kanin-vitalij-sergeevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Карчугина Анастасия Сергеевна",
+      "surname": "Карчугина",
+      "firstName": "Анастасия",
+      "middleName": "Сергеевна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/karchugina-a-s.webp",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1674-karchugina-anastasiya-sergeevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Катарева Марина Валентиновна",
+      "surname": "Катарева",
+      "firstName": "Марина",
+      "middleName": "Валентиновна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/katareva-m-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1447-katareva-marina-valentinovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Килихевич Наталья Викторовна",
+      "surname": "Килихевич",
+      "firstName": "Наталья",
+      "middleName": "Викторовна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/kilihevich-n-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1429-kilikhevich-natalya-viktorovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Кириллова Юлия Борисовна",
+      "surname": "Кириллова",
+      "firstName": "Юлия",
+      "middleName": "Борисовна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/kirillova-u-b.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1588-kirillova-yuliya-borisovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Краснова Наталья Александровна",
+      "surname": "Краснова",
+      "firstName": "Наталья",
+      "middleName": "Александровна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/krasnova-n-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1486-krasnova-natalya-aleksandrovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Лоскутова Зинаида Ивановна",
+      "surname": "Лоскутова",
+      "firstName": "Зинаида",
+      "middleName": "Ивановна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/loskutova-z-i.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1675-loskutova-zinaida-ivanovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Маркина Ольга Игоревна",
+      "surname": "Маркина",
+      "firstName": "Ольга",
+      "middleName": "Игоревна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/markina-o-i.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1470-markina-olga-igorevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Мишанина Анастасия Сергеевна",
+      "surname": "Мишанина",
+      "firstName": "Анастасия",
+      "middleName": "Сергеевна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/mishanina-a-s.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1460-mishanina-anastasiya-sergeevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Недашковская Евгения Владимировна",
+      "surname": "Недашковская",
+      "firstName": "Евгения",
+      "middleName": "Владимировна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/nedashkovskaya-e-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1499-nedashkovskaya-evgeniya-vladimirovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Полякова Ольга Григорьевна",
+      "surname": "Полякова",
+      "firstName": "Ольга",
+      "middleName": "Григорьевна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/polyakova-o-g.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1462-polyakova-olga-grigorevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Ромашко Светлана Сергеевна",
+      "surname": "Ромашко",
+      "firstName": "Светлана",
+      "middleName": "Сергеевна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/romashko-s-s.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1487-romashko-svetlana-sergeevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Рязанова Елена Михайловна",
+      "surname": "Рязанова",
+      "firstName": "Елена",
+      "middleName": "Михайловна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/ryazanova-e-m.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1677-ryazanova-elena-mikhajlovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Сартакова Ольга Леонидовна",
+      "surname": "Сартакова",
+      "firstName": "Ольга",
+      "middleName": "Леонидовна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/sartakova-o-l.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1483-sartakova-olga-leonidovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Сорокопуд Ольга Петровна",
+      "surname": "Сорокопуд",
+      "firstName": "Ольга",
+      "middleName": "Петровна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/sorokopud-o-p.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1476-sorokopud-olga-petrovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Старикова Ольга Павловна",
+      "surname": "Старикова",
+      "firstName": "Ольга",
+      "middleName": "Павловна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/starikova-o-p.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1446-starikova-olga-pavlovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Степаненко Елена Юрьевна",
+      "surname": "Степаненко",
+      "firstName": "Елена",
+      "middleName": "Юрьевна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/stepanenko-e-u.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1437-stepanenko-elena-yurevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Тактаева Полина Романовна",
+      "surname": "Тактаева",
+      "firstName": "Полина",
+      "middleName": "Романовна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/default.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1884-taktaeva-polina-romanovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Цыкало Ольга Валерьевна",
+      "surname": "Цыкало",
+      "firstName": "Ольга",
+      "middleName": "Валерьевна",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/tsykalo-o-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1820-tsykalo-olga-valerevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Щенников Эрнест Леонидович",
+      "surname": "Щенников",
+      "firstName": "Эрнест",
+      "middleName": "Леонидович",
+      "department": "Отделение Терапии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii",
+      "photoUrl": "https://kst27.ru/images/doctors/terapiya/shennikov-e-l.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii/1469-shchennikov-ernest-leonidovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-terapii"
+    },
+    {
+      "fullName": "Щетинина Светлана Александровна",
+      "surname": "Щетинина",
+      "firstName": "Светлана",
+      "middleName": "Александровна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/shetinina-s-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1457-shchetinina-svetlana-aleksandrovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Глотова Анастасия Александровна",
+      "surname": "Глотова",
+      "firstName": "Анастасия",
+      "middleName": "Александровна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/glotova-a-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/diagnosticheskoe-otdelenie/1455-glotova-anastasiya-aleksandrovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Григорьева Анна Фёдоровна",
+      "surname": "Григорьева",
+      "firstName": "Анна",
+      "middleName": "Фёдоровна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/grigoryeva-a-f.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1451-grigoreva-anna-fjodorovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Ершова Марина Игоревна",
+      "surname": "Ершова",
+      "firstName": "Марина",
+      "middleName": "Игоревна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/ershova-m-i.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1444-ershova-marina-igorevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Иванова Мария Викторовна",
+      "surname": "Иванова",
+      "firstName": "Мария",
+      "middleName": "Викторовна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/default.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1885-ivanova-mariya-viktorovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Курочкина Елена Андреевна",
+      "surname": "Курочкина",
+      "firstName": "Елена",
+      "middleName": "Андреевна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/kurochkina-e-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1861-kurochkina-elena-andreevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Майдурова Галина Михайловна",
+      "surname": "Майдурова",
+      "firstName": "Галина",
+      "middleName": "Михайловна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/maydurova-g-m.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1458-majdurova-galina-mikhajlovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Милая Наталья Валерьевна",
+      "surname": "Милая",
+      "firstName": "Наталья",
+      "middleName": "Валерьевна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/milaya-n-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1481-milaya-natalya-valerevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Миропольская Наталья Юрьевна",
+      "surname": "Миропольская",
+      "firstName": "Наталья",
+      "middleName": "Юрьевна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/miropolskaya-natalya-yurevna.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1579-miropolskaya-natalya-yurevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Михалева Алена Витальевна",
+      "surname": "Михалева",
+      "firstName": "Алена",
+      "middleName": "Витальевна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/default.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1879-mikhaleva-alena-vitalevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Родионова Оксана Михайловна",
+      "surname": "Родионова",
+      "firstName": "Оксана",
+      "middleName": "Михайловна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/rodionova-o-m.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1456-rodionova-oksana-mikhajlovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Семенцова Валерия Сергеевна",
+      "surname": "Семенцова",
+      "firstName": "Валерия",
+      "middleName": "Сергеевна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/sementsova-v-s.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1442-sementsova-valeriya-sergeevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Тишина Светлана Сергеевна",
+      "surname": "Тишина",
+      "firstName": "Светлана",
+      "middleName": "Сергеевна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/tishina-s-s.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1454-tishina-svetlana-sergeevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Чиркова Ольга Борисовна",
+      "surname": "Чиркова",
+      "firstName": "Ольга",
+      "middleName": "Борисовна",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/chirkova-o-b.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1587-chirkova-olga-borisovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Шкилёв Роман Владимирович",
+      "surname": "Шкилёв",
+      "firstName": "Роман",
+      "middleName": "Владимирович",
+      "department": "Отделение Педиатрии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii",
+      "photoUrl": "https://kst27.ru/images/doctors/skilev-r-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii/1443-shkiljov-roman-vladimirovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-pediatrii"
+    },
+    {
+      "fullName": "Чирков Андрей Валерьевич",
+      "surname": "Чирков",
+      "firstName": "Андрей",
+      "middleName": "Валерьевич",
+      "department": "Отделение Гинекологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii",
+      "photoUrl": "https://kst27.ru/images/photo-2023-08-16-12-31-11.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii/1420-chirkov-andrej-valerevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii"
+    },
+    {
+      "fullName": "Акимова Анна Петровна",
+      "surname": "Акимова",
+      "firstName": "Анна",
+      "middleName": "Петровна",
+      "department": "Отделение Гинекологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii",
+      "photoUrl": "https://kst27.ru/images/default.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii/1875-akimova-anna-petrovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii"
+    },
+    {
+      "fullName": "Баранова Анна Алексеевна",
+      "surname": "Баранова",
+      "firstName": "Анна",
+      "middleName": "Алексеевна",
+      "department": "Отделение Гинекологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii",
+      "photoUrl": "https://kst27.ru/images/doctors/ginekologiya/baranova-a-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii/1467-baranova-anna-alekseevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii"
+    },
+    {
+      "fullName": "Бикиняева Юлия Александровна",
+      "surname": "Бикиняева",
+      "firstName": "Юлия",
+      "middleName": "Александровна",
+      "department": "Отделение Гинекологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii",
+      "photoUrl": "https://kst27.ru/images/doctors/ginekologiya/bikinyaeva-u-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii/1465-bikinyaeva-yuliya-aleksandrovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii"
+    },
+    {
+      "fullName": "Воронова Юлия Владимировна",
+      "surname": "Воронова",
+      "firstName": "Юлия",
+      "middleName": "Владимировна",
+      "department": "Отделение Гинекологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii",
+      "photoUrl": "https://kst27.ru/images/doctors/ginekologiya/voronova-u-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii/1445-voronova-yuliya-vladimirovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii"
+    },
+    {
+      "fullName": "Монахова Ольга Афанасьевна",
+      "surname": "Монахова",
+      "firstName": "Ольга",
+      "middleName": "Афанасьевна",
+      "department": "Отделение Гинекологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii",
+      "photoUrl": "https://kst27.ru/images/doctors/ginekologiya/monakhova-o-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii/1427-monakhova-olga-afanasevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii"
+    },
+    {
+      "fullName": "Мусянович Марина Геннадьевна",
+      "surname": "Мусянович",
+      "firstName": "Марина",
+      "middleName": "Геннадьевна",
+      "department": "Отделение Гинекологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii",
+      "photoUrl": "https://kst27.ru/images/doctors/ginekologiya/musyanovich-m-g.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii/1466-musyanovich-marina-gennadevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-ginekologii"
+    },
+    {
+      "fullName": "Баранова Светлана Вячеславовна",
+      "surname": "Баранова",
+      "firstName": "Светлана",
+      "middleName": "Вячеславовна",
+      "department": "Отделение Онкологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii",
+      "photoUrl": "https://kst27.ru/images/doctors/onkologiya/baranova-s-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii/1464-baranova-svetlana-vyacheslavovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii"
+    },
+    {
+      "fullName": "Белоконь Константин Владимирович",
+      "surname": "Белоконь",
+      "firstName": "Константин",
+      "middleName": "Владимирович",
+      "department": "Отделение Онкологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii",
+      "photoUrl": "https://kst27.ru/images/doctors/onkologiya/belokon-k-v.webp",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii/1636-belokon-konstantin-vladimirovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii"
+    },
+    {
+      "fullName": "Зенюков Артем Сергеевич",
+      "surname": "Зенюков",
+      "firstName": "Артем",
+      "middleName": "Сергеевич",
+      "department": "Отделение Онкологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii",
+      "photoUrl": "https://kst27.ru/images/doctors/onkologiya/zenukov-a-s.webp",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii/1638-zenyukov-artem-sergeevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii"
+    },
+    {
+      "fullName": "Скородумов Владимир Семенович",
+      "surname": "Скородумов",
+      "firstName": "Владимир",
+      "middleName": "Семенович",
+      "department": "Отделение Онкологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii",
+      "photoUrl": "https://kst27.ru/images/doctors/onkologiya/skorodumov-v-s.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii/1491-skorodumov-vladimir-semenovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-onkologii"
+    },
+    {
+      "fullName": "Гончаров Александр Валерьевич",
+      "surname": "Гончаров",
+      "firstName": "Александр",
+      "middleName": "Валерьевич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/goncharov-a-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1424-goncharov-aleksandr-valerevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Гайман Кирилл Николаевич",
+      "surname": "Гайман",
+      "firstName": "Кирилл",
+      "middleName": "Николаевич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/gayman-k-n.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1637-gajman-kirill-nikolaevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Глонин Александр Юрьевич",
+      "surname": "Глонин",
+      "firstName": "Александр",
+      "middleName": "Юрьевич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/glonin-a-u.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1452-glonin-aleksandr-yurevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Емешкин Максим Игоревич",
+      "surname": "Емешкин",
+      "firstName": "Максим",
+      "middleName": "Игоревич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/emeshkin-m-i.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1485-emeshkin-maksim-igorevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Еременко Андрей Валентинович",
+      "surname": "Еременко",
+      "firstName": "Андрей",
+      "middleName": "Валентинович",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/eremenko-a-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1488-eremenko-andrej-valentinovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Захаров Дмитрий Сергеевич",
+      "surname": "Захаров",
+      "firstName": "Дмитрий",
+      "middleName": "Сергеевич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/zakharov-d-s.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1838-zakharov-dmitrij-sergeevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Захаров Сергей Викторович",
+      "surname": "Захаров",
+      "firstName": "Сергей",
+      "middleName": "Викторович",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/3329654-251029-zaharov_square2.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1782-zakharov-sergej-viktorovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Калашников Константин Анатольевич",
+      "surname": "Калашников",
+      "firstName": "Константин",
+      "middleName": "Анатольевич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/kalashnikov-k-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1881-kalashnikov-konstantin-anatolevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Луферова Жанна Ивановна",
+      "surname": "Луферова",
+      "firstName": "Жанна",
+      "middleName": "Ивановна",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/lyferova-j-i.webp",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1475-luferova-zhanna-ivanovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Пустовит Галина Петровна",
+      "surname": "Пустовит",
+      "firstName": "Галина",
+      "middleName": "Петровна",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/nevrologiya/pustovit-g-p.webp",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-nevrologii/1477-pustovit-galina-petrovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Сальников Игорь Валерьевич",
+      "surname": "Сальников",
+      "firstName": "Игорь",
+      "middleName": "Валерьевич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/salnikov-i-v.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1565-salnikov-igor-valerevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Самойлов Алексей Александрович",
+      "surname": "Самойлов",
+      "firstName": "Алексей",
+      "middleName": "Александрович",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/samoylov-a-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1781-samojlov-aleksej-aleksandrovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Сергеев Александр Павлович",
+      "surname": "Сергеев",
+      "firstName": "Александр",
+      "middleName": "Павлович",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/sergeev-a-p.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1441-sergeev-aleksandr-pavlovich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Усачев Максим Сергеевич",
+      "surname": "Усачев",
+      "firstName": "Максим",
+      "middleName": "Сергеевич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/default.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1883-usachev-maksim-sergeevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Шенгелия Зураб Николаевич",
+      "surname": "Шенгелия",
+      "firstName": "Зураб",
+      "middleName": "Николаевич",
+      "department": "Отделение Хирургии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii",
+      "photoUrl": "https://kst27.ru/images/doctors/khirurgiya/shengeliya-z-k.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii/1430-shengeliya-zurab-nikolaevich",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-khirurgii"
+    },
+    {
+      "fullName": "Панкова Юлия Леонидовна",
+      "surname": "Панкова",
+      "firstName": "Юлия",
+      "middleName": "Леонидовна",
+      "department": "Отделение ОтоРиноЛарингологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii",
+      "photoUrl": "https://kst27.ru/images/doctors/lor/pankova-u-l.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii/1426-pankova-yuliya-leonidovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii"
+    },
+    {
+      "fullName": "Кузьминых Ольга Геннадьевна",
+      "surname": "Кузьминых",
+      "firstName": "Ольга",
+      "middleName": "Геннадьевна",
+      "department": "Отделение ОтоРиноЛарингологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii",
+      "photoUrl": "https://kst27.ru/images/doctors/lor/kuzminyh-o-g.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii/1472-kuzminykh-olga-gennadevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii"
+    },
+    {
+      "fullName": "Смирнова Наталья Алексеевна",
+      "surname": "Смирнова",
+      "firstName": "Наталья",
+      "middleName": "Алексеевна",
+      "department": "Отделение ОтоРиноЛарингологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii",
+      "photoUrl": "https://kst27.ru/images/doctors/lor/smirnova-n-a.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii/1771-smirnova-natalya-alekseevna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii"
+    },
+    {
+      "fullName": "Фролова Вероника Львовна",
+      "surname": "Фролова",
+      "firstName": "Вероника",
+      "middleName": "Львовна",
+      "department": "Отделение ОтоРиноЛарингологии",
+      "departmentUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii",
+      "photoUrl": "https://kst27.ru/images/doctors/lor/frolova-v-l.jpg",
+      "detailPageUrl": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii/1435-frolova-veronika-lvovna",
+      "source": "https://kst27.ru/index.php/nasha-komanda/vrachi/otdelenie-otorinolaringologii"
+    }
+  ]
+}

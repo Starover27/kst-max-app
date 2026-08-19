@@ -1,0 +1,50 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+  border: none;
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  transition: all var(--transition-base) var(--easing-1);
+  outline: none;
+  box-shadow: var(--shadow-button);
+  border-radius: var(--radius-button);
+  padding: 0.75rem 1.5rem;
+  min-height: var(--size-btn);
+  font-size: var(--font-size-base); /* Уже использует переменную, но теперь это 17px */
+  line-height: var(--line-height-base); /* Добавляем line-height */
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primary {
+  background: var(--gradient-accent);
+  color: white;
+}
+
+.primary:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.secondary {
+  background: var(--color-surface);
+  color: var(--color-accent);
+  border: 1px solid var(--color-border);
+}
+
+.secondary:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-accent), transparent 95%);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--color-accent);
+}
+
+.ghost:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-accent), transparent 95%);
+}

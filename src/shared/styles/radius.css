@@ -1,0 +1,12 @@
+:root {
+  /* design-reference / DESIGN_SYSTEM */
+  --radius-sm: 12px;     /* иконки-кнопки, фото врача, dateCell, timeCell */
+  --radius-md: 14px;     /* кнопки (btnPrimary), quickBtn */
+  --radius-lg: 16px;     /* карточки */
+  --radius-xl: 20px;     /* hero-блоки, modalBox */
+  --radius-full: 999px;  /* чипы, toast, toggle, аватары */
+
+  --radius-card: 16px;   /* border-radius для карточек */
+  --radius-button: 12px; /* border-radius для кнопок */
+  --radius-avatar: 50%;  /* border-radius для аватаров */
+}

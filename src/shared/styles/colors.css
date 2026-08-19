@@ -1,0 +1,43 @@
+:root {
+  /* Brand palette (design-reference) */
+  --red: #E3232A;
+  --red-dark: #A81B20;
+  --red-light: #FBEAEA;
+  --orange: #F97316;
+  --green: #16A34A;
+  --gray: #58595B;
+  --gray-dark: #2F3033;
+  --gray-light: #F5F5F5;
+
+  /* Primary Colors - mapped to brand palette */
+  --color-primary: var(--red);
+  --color-primary-light: var(--red-light);
+  --color-success: var(--green);
+  --color-error: var(--red);
+
+  /* Background & Surface */
+  --color-bg: #F7F8FA;            /* Светлый фон */
+  --color-surface: #FFFFFF;       /* Белые карточки */
+  --color-chip: #ECECEE;          /* Неактивные чипы и ghost-кнопки */
+
+  /* Text Colors */
+  --color-text: #1C1C1E;          /* Основной текст */
+  --color-text-secondary: #6B7280; /* Вторичный текст */
+  --color-text-muted: #9CA3AF;    /* Неактивные элементы */
+  --color-text-inverse: #FFFFFF;  /* Текст на градиентах/красном */
+
+  /* Border */
+  --color-border: #E8E8EC;
+
+  /* Gradients */
+  --gradient-primary-start: var(--red);
+  --gradient-primary-end: var(--gray-dark);
+  --gradient-primary: linear-gradient(100deg, var(--red) 0%, #7A1220 55%, #4B5563 100%);
+  --gradient-accent-orange: linear-gradient(100deg, var(--orange) 0%, #B3261E 60%, #57534E 100%);
+  --gradient-hero: linear-gradient(180deg, #EAF2FB 0%, #DFE9F5 100%);
+  --gradient-accent: var(--gradient-primary);
+  --gradient-success: var(--gradient-primary);
+
+  /* Semantic Color Aliases */
+  --color-accent: var(--color-primary);
+}

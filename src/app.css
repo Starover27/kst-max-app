@@ -1,0 +1,383 @@
+:root {
+  --red: #E3232A;
+  --red-dark: #A81B20;
+  --orange: #f97316;
+  --bg: #F7F8FA;
+  --surface: #ffffff;
+  --text: #1C1C1E;
+  --muted: #8a8f98;
+  --border: #E8E8EC;
+  --chip: #ececee;
+  --green: #16a34a;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', system-ui, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+button { font-family: inherit; }
+h1, h2, h3, h4, p { margin: 0; }
+
+.appShell { min-height: 100vh; display: flex; flex-direction: column; }
+.page { max-width: 480px; margin: 0 auto; width: 100%; padding: 16px 16px 96px; }
+.pageWide { padding-left: 0; padding-right: 0; }
+
+/* ---------- header ---------- */
+.topBar { display: flex; align-items: center; justify-content: space-between; padding: 12px 4px; }
+.topBarTitle { font-size: 18px; font-weight: 700; }
+.pageTitle { font-size: 20px; font-weight: 700; }
+.iconBtn {
+  width: 40px; height: 40px; border: none; background: transparent; border-radius: 12px;
+  display: inline-flex; align-items: center; justify-content: center; cursor: pointer; color: var(--text);
+}
+.iconBtn:active { background: var(--chip); }
+
+/* ---------- bottom nav ---------- */
+.bottomNav {
+  position: fixed; bottom: 0; left: 0; right: 0; background: var(--surface);
+  border-top: 1px solid var(--border); display: flex; z-index: 40;
+  box-shadow: 0 -1px 4px rgba(0,0,0,0.04);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.bottomNav a {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 10px 0 8px; text-decoration: none; color: var(--muted); font-size: 11px; font-weight: 500;
+}
+.bottomNav a.active { color: var(--red); }
+
+/* ---------- cards / buttons ---------- */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px; }
+.btnPrimary {
+  width: 100%; border: none; background: var(--red); color: #fff; font-size: 15px; font-weight: 600;
+  padding: 15px 16px; border-radius: 14px; cursor: pointer;
+}
+.btnPrimary:active { background: var(--red-dark); }
+.btnPrimary:disabled { opacity: 0.5; cursor: default; }
+.btnGhost {
+  width: 100%; border: none; background: var(--chip); color: var(--text); font-size: 14px; font-weight: 500;
+  padding: 12px 16px; border-radius: 12px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 8px;
+}
+.btnGhost:active { background: #e0e0e4; }
+.chip {
+  border: none; background: var(--chip); color: var(--text); font-size: 13px; font-weight: 500;
+  padding: 9px 14px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+}
+.chip.active { background: var(--red); color: #fff; }
+.chip.activeDark { background: #4b5563; color: #fff; }
+
+/* ---------- home ---------- */
+.homeHero { position: relative; overflow: hidden; background: linear-gradient(180deg, #eaf2fb 0%, #dfe9f5 100%); }
+.homeHeroInner { padding: 20px 16px 0; }
+.homeHero h1 { font-size: 24px; font-weight: 700; margin: 14px 0 10px; }
+.homeHero p { font-size: 13px; color: #4b5563; max-width: 260px; }
+.homeHeroImg { width: 100%; height: 210px; object-fit: cover; display: block; margin-top: 14px; }
+.homeLogo { display: flex; align-items: center; gap: 10px; }
+.homeLogoImg { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; background: #fff; flex: none; }
+.homeLogoText { font-size: 12px; font-weight: 800; color: var(--red); line-height: 1.15; text-transform: uppercase; }
+.homeLogoText small { display: block; font-size: 9px; font-weight: 500; color: #6b7280; text-transform: none; }
+
+.quickGrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: -34px; position: relative; z-index: 2; padding: 0 16px; }
+.quickBtn {
+  background: var(--surface); border: none; border-radius: 14px; padding: 14px 6px 12px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 11px; font-weight: 500; color: var(--text);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08); text-align: center; line-height: 1.25;
+}
+.quickBtn:active { transform: scale(0.97); }
+
+.promoBanner {
+  margin: 16px; border-radius: 16px; padding: 18px; color: #fff; display: flex; gap: 14px; align-items: center;
+  background: linear-gradient(100deg, var(--red) 0%, #7a1220 55%, #4b5563 100%);
+}
+.promoBanner h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+.promoBanner p { font-size: 12px; opacity: 0.9; }
+.promoArrow {
+  margin-left: auto; flex: none; width: 34px; height: 34px; border-radius: 50%; border: none;
+  background: rgba(255,255,255,0.18); color: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center;
+}
+
+/* ---------- doctors ---------- */
+.chipsRow { display: flex; gap: 8px; overflow-x: auto; padding: 4px 16px 12px; scrollbar-width: none; }
+.chipsRow::-webkit-scrollbar { display: none; }
+.doctorCard {
+  margin: 0 16px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 14px;
+  display: flex; gap: 12px; cursor: pointer; position: relative;
+}
+.doctorCard:active { background: #fafafa; }
+.doctorPhoto { width: 84px; height: 96px; border-radius: 12px; object-fit: cover; background: #eee; flex: none; }
+.doctorName { font-size: 15px; font-weight: 700; line-height: 1.3; }
+.doctorSpec { font-size: 13px; color: var(--muted); margin-top: 4px; }
+.doctorExp { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.doctorBottom { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+.rating { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 600; }
+.price { font-size: 13px; font-weight: 600; }
+.favBtn { position: absolute; top: 12px; right: 12px; border: none; background: transparent; cursor: pointer; color: #b6bac2; padding: 4px; }
+.favBtn.active { color: var(--red); }
+
+/* ---------- booking ---------- */
+.docSummary { display: flex; gap: 14px; align-items: center; }
+.docSummary .doctorPhoto { width: 92px; height: 104px; }
+.dateRow { display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 8px; scrollbar-width: none; }
+.dateRow::-webkit-scrollbar { display: none; }
+.dateCell {
+  flex: none; width: 56px; border: 1px solid var(--border); background: var(--surface); border-radius: 14px; padding: 10px 0;
+  display: flex; flex-direction: column; align-items: center; gap: 2px; cursor: pointer; color: var(--text);
+}
+.dateCell .wd { font-size: 12px; color: var(--muted); }
+.dateCell .d { font-size: 17px; font-weight: 700; }
+.dateCell .mo { font-size: 10px; color: var(--muted); }
+.dateCell.active { background: var(--orange); border-color: var(--orange); color: #fff; }
+.dateCell.active .wd, .dateCell.active .mo { color: #fff; }
+.timeGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }
+.timeCell {
+  border: 1px solid var(--border); background: var(--surface); border-radius: 12px; padding: 13px 0; font-size: 14px; font-weight: 500;
+  cursor: pointer; color: var(--text);
+}
+.timeCell.active { background: var(--red); border-color: var(--red); color: #fff; }
+.timeCell:disabled { opacity: 0.45; cursor: default; text-decoration: line-through; }
+
+/* ---------- appointment ---------- */
+.apptHero {
+  border-radius: 16px; padding: 18px; color: #fff; display: flex; gap: 16px; align-items: center;
+  background: linear-gradient(100deg, var(--orange) 0%, #b3261e 60%, #57534e 100%); position: relative; overflow: hidden;
+}
+.apptHero .day { font-size: 34px; font-weight: 800; line-height: 1; }
+.apptHero .month { font-size: 14px; margin-top: 4px; }
+.apptInfo { border-left: 1px solid rgba(255,255,255,0.4); padding-left: 16px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+.apptInfo .big { font-size: 14px; font-weight: 600; }
+.infoRow { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; font-size: 13px; border-bottom: 1px solid var(--border); }
+.infoRow:last-child { border-bottom: none; }
+.infoRow .k { color: var(--muted); }
+.infoRow .v { font-weight: 600; text-align: right; }
+.actionRow { display: flex; align-items: center; gap: 12px; width: 100%; border: none; background: transparent; padding: 13px 4px; font-size: 14px; font-weight: 600; cursor: pointer; color: var(--text); text-align: left; }
+.actionRow.danger { color: var(--red); }
+
+/* ---------- toggle ---------- */
+.toggle { position: relative; width: 46px; height: 26px; flex: none; border: none; border-radius: 999px; background: #d1d5db; cursor: pointer; transition: background 0.2s; }
+.toggle::after { content: ''; position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: #fff; transition: left 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.25); }
+.toggle.on { background: var(--red); }
+.toggle.on::after { left: 23px; }
+
+/* ---------- analysis ---------- */
+.analysisCard { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px; margin-bottom: 12px; }
+.analysisTitle { font-size: 15px; font-weight: 700; }
+.analysisDate { font-size: 12px; color: var(--muted); margin-top: 3px; }
+.statusReady { color: var(--muted); font-size: 12px; font-weight: 600; }
+.statusWork { color: var(--orange); font-size: 12px; font-weight: 600; }
+
+/* ---------- profile ---------- */
+.profileHero {
+  border-radius: 20px; padding: 28px 20px 44px; color: #fff; text-align: center; position: relative;
+  background: linear-gradient(100deg, var(--red) 0%, #7a1220 55%, #4b5563 100%);
+}
+.profileAvatar { width: 96px; height: 96px; border-radius: 50%; background: #e5e7eb; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; font-size: 34px; font-weight: 700; color: #6b7280; position: relative; }
+.profileEdit { position: absolute; right: -2px; bottom: -2px; width: 30px; height: 30px; border-radius: 50%; border: none; background: #fff; color: var(--text); cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.profileName { font-size: 20px; font-weight: 700; }
+.profilePhone { font-size: 14px; opacity: 0.9; margin-top: 4px; }
+.profileMenu { background: var(--surface); border-radius: 20px; margin-top: -24px; padding: 6px 16px 12px; position: relative; }
+.menuRow { display: flex; align-items: center; gap: 14px; width: 100%; border: none; background: transparent; padding: 15px 2px; font-size: 14px; font-weight: 500; color: var(--text); cursor: pointer; text-align: left; }
+.menuRow + .menuRow { border-top: 1px solid var(--border); }
+.menuRow .arrow { margin-left: auto; color: var(--muted); }
+.logoutBtn { width: 100%; border: none; background: var(--chip); color: var(--red); font-size: 15px; font-weight: 700; padding: 14px; border-radius: 14px; cursor: pointer; margin-top: 8px; }
+.profileSettings { position: absolute; top: 10px; right: 10px; color: #fff; }
+.profileSettings:active { background: rgba(255,255,255,0.15); }
+
+/* ---------- modal ---------- */
+.modalOverlay { position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 60; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.modalBox { background: #fff; border-radius: 18px; width: 100%; max-width: 400px; max-height: 80vh; overflow: auto; padding: 18px; }
+.modalHead { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.modalHead h3 { font-size: 16px; font-weight: 700; }
+.modalBody { font-size: 14px; line-height: 1.5; }
+.modalBody table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.modalBody td, .modalBody th { border-bottom: 1px solid var(--border); padding: 8px 4px; text-align: left; }
+.modalBody th { color: var(--muted); font-weight: 500; }
+
+/* ---------- misc ---------- */
+.sectionTitle { font-size: 16px; font-weight: 700; margin: 18px 0 12px; }
+.muted { color: var(--muted); }
+.empty { text-align: center; color: var(--muted); padding: 40px 20px; font-size: 14px; }
+.toast { position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%); background: #1f2430; color: #fff; padding: 10px 18px; border-radius: 999px; font-size: 13px; z-index: 70; }
+
+/* ---------- tax deduction ---------- */
+.taxHero {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+  padding: 18px; display: flex; gap: 14px; align-items: flex-start; margin-bottom: 12px;
+}
+.taxHeroIcon {
+  width: 44px; height: 44px; border-radius: 12px; background: var(--red-light, #FBEAEA);
+  color: var(--red); display: flex; align-items: center; justify-content: center; flex: none;
+}
+.taxHeroContent { flex: 1; }
+.taxHeroTitle { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+.taxHeroDesc { font-size: 13px; color: var(--muted); line-height: 1.45; }
+
+.taxAmountCard {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+  padding: 18px; margin-bottom: 12px;
+}
+.taxAmountRow { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; }
+.taxAmountLabel { font-size: 14px; color: var(--muted); }
+.taxAmountValue { font-size: 16px; font-weight: 700; }
+.taxAmountReturn { font-size: 18px; font-weight: 700; color: var(--green); }
+.taxAmountDivider { height: 1px; background: var(--border); margin: 8px 0; }
+.taxAmountNote { font-size: 12px; color: var(--muted); margin-top: 8px; text-align: center; }
+
+.taxInfoBlock {
+  background: var(--red-light, #FBEAEA); border-radius: 14px; padding: 14px 16px;
+  display: flex; gap: 12px; align-items: flex-start; margin-bottom: 4px;
+}
+.taxInfoIcon { flex: none; margin-top: 1px; }
+.taxInfoText { font-size: 13px; color: var(--text); line-height: 1.45; }
+
+.taxDocList {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+  padding: 6px 16px; margin-bottom: 4px;
+}
+.taxDocItem {
+  display: flex; align-items: flex-start; gap: 12px; padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.taxDocItem:last-child { border-bottom: none; }
+.taxDocCheck { flex: none; margin-top: 2px; }
+.taxDocText { font-size: 13px; line-height: 1.4; }
+
+.taxCtaBtn { margin-top: 20px; }
+
+/* ---------- tax deduction form ---------- */
+.taxForm {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+  padding: 18px; margin-bottom: 12px;
+}
+.taxFormSection {
+  margin-bottom: 20px;
+}
+.taxFormSection:last-child {
+  margin-bottom: 0;
+}
+.taxFormSectionTitle {
+  font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 14px;
+  padding-bottom: 8px; border-bottom: 1px solid var(--border);
+}
+.taxField {
+  margin-bottom: 14px;
+}
+.taxField:last-child {
+  margin-bottom: 0;
+}
+.taxLabel {
+  display: block; font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 6px;
+}
+.taxInput {
+  width: 100%; border: 1px solid var(--border); border-radius: 12px;
+  padding: 12px 14px; font-size: 14px; font-family: inherit; color: var(--text);
+  background: var(--surface); outline: none; transition: border-color 0.2s;
+}
+.taxInput:focus {
+  border-color: var(--red);
+}
+.taxInput.error {
+  border-color: var(--red);
+}
+.taxInput::placeholder {
+  color: #c0c4cc;
+}
+.taxError {
+  font-size: 12px; color: var(--red); margin-top: 4px; line-height: 1.3;
+}
+.taxBtnGroup {
+  display: flex; gap: 8px;
+}
+.taxBtnOption {
+  flex: 1; border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  font-size: 13px; font-weight: 500; padding: 11px 10px; border-radius: 12px;
+  cursor: pointer; text-align: center; transition: all 0.15s; line-height: 1.3;
+}
+.taxBtnOption:active {
+  transform: scale(0.97);
+}
+.taxBtnOption.selected {
+  background: var(--red); border-color: var(--red); color: #fff;
+}
+.taxBtnOption.error {
+  border-color: var(--red);
+}
+.taxYearBlock {
+  background: var(--bg); border-radius: 12px; padding: 14px; margin-bottom: 10px;
+  position: relative;
+}
+.taxYearHeader {
+  display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;
+}
+.taxYearTitle {
+  font-size: 14px; font-weight: 700;
+}
+.taxYearRemove {
+  border: none; background: transparent; color: var(--red); cursor: pointer;
+  font-size: 13px; font-weight: 600; padding: 4px 8px; border-radius: 8px;
+}
+.taxYearRemove:active {
+  background: var(--red-light, #FBEAEA);
+}
+.taxAddYearBtn {
+  width: 100%; border: 1px dashed var(--border); background: transparent;
+  color: var(--muted); font-size: 13px; font-weight: 500; padding: 12px;
+  border-radius: 12px; cursor: pointer; margin-top: 8px;
+}
+.taxAddYearBtn:active {
+  background: var(--chip);
+}
+.taxSuccess {
+  text-align: center; padding: 40px 16px;
+}
+.taxSuccessIcon {
+  width: 64px; height: 64px; border-radius: 50%; background: #e6f9ee;
+  color: var(--green); display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 18px;
+}
+.taxSuccessTitle {
+  font-size: 18px; font-weight: 700; margin-bottom: 8px;
+}
+.taxSuccessDesc {
+  font-size: 14px; color: var(--muted); line-height: 1.5; margin-bottom: 24px;
+}
+.taxSubmitBtn {
+  margin-top: 20px;
+}
+.taxToggle {
+  display: flex; gap: 8px;
+}
+.taxToggleBtn {
+  flex: 1; border: 1px solid var(--border); background: var(--surface);
+  font-size: 13px; font-weight: 500; padding: 11px 10px; border-radius: 12px;
+  cursor: pointer; text-align: center; transition: all 0.15s; color: var(--text);
+}
+.taxToggleBtn.selected {
+  background: var(--red); border-color: var(--red); color: #fff;
+}
+.taxToggleBtn.error {
+  border-color: var(--red);
+}
+.taxRadioGroup {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.taxRadioOption {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  font-size: 12px; font-weight: 500; padding: 9px 12px; border-radius: 10px;
+  cursor: pointer; text-align: center; transition: all 0.15s; line-height: 1.3;
+}
+.taxRadioOption.selected {
+  background: var(--red); border-color: var(--red); color: #fff;
+}
+.taxRadioOption.error {
+  border-color: var(--red);
+}
+.taxYearActions {
+  display: flex; gap: 8px; margin-top: 16px;
+}
+.taxYearActions button {
+  flex: 1;
+}

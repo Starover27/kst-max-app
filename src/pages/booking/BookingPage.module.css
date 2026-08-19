@@ -1,0 +1,119 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+  padding: var(--gap-md);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+}
+
+.backButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.title {
+  font-size: var(--font-size-h2); /* Используем новый размер H2 */
+  font-weight: var(--font-weight-h2); /* Используем новый вес H2 */
+  margin: 0;
+  flex: 1;
+  line-height: var(--line-height-heading); /* Используем line-height для заголовков */
+}
+
+.doctorCardWrapper {
+  margin-top: var(--gap-sm);
+}
+
+.heading {
+  font-size: var(--font-size-h3); /* Используем новый размер H3 */
+  font-weight: var(--font-weight-h3); /* Используем новый вес H3 */
+  margin: var(--gap-md) 0 var(--gap-sm) 0;
+  color: var(--color-text);
+  line-height: var(--line-height-heading); /* Используем line-height для заголовков */
+}
+
+.dates {
+  display: flex;
+  gap: var(--gap-sm);
+  overflow-x: auto;
+  padding-bottom: var(--gap-xs);
+  /* Скрыть полосу прокрутки */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.dates::-webkit-scrollbar {
+  display: none;
+}
+
+.date, .dateActive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 0.5rem;
+  min-width: 50px; /* Установим минимальную ширину для карточек дат */
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--transition-base) var(--easing-1);
+  font-size: var(--font-size-secondary); /* Используем размер secondary для дат */
+  line-height: 1.2;
+}
+
+.date:hover {
+  background: color-mix(in srgb, var(--color-accent), transparent 90%);
+}
+
+.dateActive {
+  background: var(--color-accent);
+  color: white;
+  border-color: var(--color-accent);
+}
+
+.times {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Сетка для времени */
+  gap: var(--gap-sm);
+  margin-top: var(--gap-sm);
+}
+
+.time, .timeActive {
+  padding: 0.5rem;
+  border-radius: var(--radius-button);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--transition-base) var(--easing-1);
+  font-size: var(--font-size-secondary); /* Используем размер secondary для времени */
+  text-align: center;
+  line-height: var(--line-height-base); /* Используем base line-height */
+}
+
+.time:hover {
+  background: color-mix(in srgb, var(--color-accent), transparent 90%);
+}
+
+.timeActive {
+  background: var(--color-accent);
+  color: white;
+  border-color: var(--color-accent);
+}
+
+.cta {
+  margin-top: auto; /* Прижимаем кнопку к низу */
+  padding: 1rem !important; /* Переопределяем padding кнопки, если нужно */
+  border-radius: var(--radius-card) !important; /* Переопределяем радиус, если нужно */
+  font-size: var(--font-size-base); /* Используем базовый размер шрифта для кнопки */
+  font-weight: var(--font-weight-semibold);
+}

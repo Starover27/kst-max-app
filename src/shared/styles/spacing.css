@@ -1,0 +1,25 @@
+:root {
+  /* design-reference / DESIGN_SYSTEM */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 28px;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1.125rem;
+  --space-5: 1.75rem;
+  --space-6: 2.25rem;
+
+  --btn-vertical: 0.9rem;
+  --btn-horizontal: 1.25rem;
+
+  --gap-xs: 0.5rem;
+  --gap-sm: 0.75rem;
+  --gap-md: 1rem;
+  --gap-lg: 1.5rem;
+  --gap-xl: 2rem;
+}

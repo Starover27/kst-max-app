@@ -1,0 +1,6 @@
+export * as auth from './auth/service'
+export * as doctors from './doctors/service'
+export * as appointments from './appointments/service'
+export * as analysis from './analysis/service'
+export * as profile from './profile/service'
+export * as notifications from './notifications/service'

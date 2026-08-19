@@ -1,0 +1,148 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+  padding: var(--gap-md);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+}
+
+.backButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-semibold);
+  margin: 0;
+  flex: 1;
+}
+
+.appointmentCard {
+  display: flex;
+  gap: var(--gap-md);
+  background: var(--gradient-accent); /* Оранжевый -> Желтый -> Зеленый */
+  color: white;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  position: relative;
+}
+
+.ecgLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='20'%3E%3Cpath d='M0 10 L10 10 L15 5 L20 15 L25 0 L30 10 L40 10' stroke='rgba(255,255,255,0.5)' stroke-width='1' fill='none'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.dateBox {
+  width: 80px; /* Уменьшим ширину для даты */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+
+.dateNumber {
+  font-size: 1.8rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+}
+
+.dateText {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.detailsBox {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.patientName {
+  font-size: 1.1rem;
+  font-weight: var(--font-weight-semibold);
+  margin: 0;
+}
+
+.doctorInfo {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin: var(--gap-xs) 0;
+}
+
+.appointmentDetails {
+  margin-top: var(--gap-md);
+  display: grid;
+  gap: var(--gap-xs);
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailLabel {
+  font-weight: var(--font-weight-medium);
+  opacity: 0.8;
+}
+
+.detailValue {
+  font-weight: var(--font-weight-normal);
+}
+
+.statusConfirmed {
+  color: var(--color-success); /* Зеленый цвет для подтверждённого статуса */
+}
+
+.actionsCard {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: 1rem;
+  display: grid;
+  gap: var(--gap-sm);
+}
+
+.actionButton {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: var(--radius-button);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--transition-base) var(--easing-1);
+  font-size: 1rem;
+  font-weight: var(--font-weight-medium);
+}
+
+.actionButton:hover {
+  background: color-mix(in srgb, var(--color-accent), transparent 90%);
+}
+
+.reminderCard {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: 1rem;
+  margin-top: var(--gap-md);
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
