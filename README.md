@@ -1,6 +1,5 @@
-![Uploading screen.png…]()
 
-
+https://github.com/Starover27/kst-max-app/blob/main/screen.png
 
 
 # React + TypeScript + Vite
